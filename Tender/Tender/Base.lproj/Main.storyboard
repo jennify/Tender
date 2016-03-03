@@ -21,33 +21,35 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan" id="1n5-vV-t3g">
-                                <rect key="frame" x="8" y="72" width="304" height="304"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="cc4-xR-GNY" appends="YES" id="ThO-Ii-4KN"/>
-                                </connections>
-                            </imageView>
                             <view contentMode="scaleToFill" id="wip-l9-j8m" customClass="DraggableImageView" customModule="Tender" customModuleProvider="target">
                                 <rect key="frame" x="8" y="72" width="304" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bNj-dP-afT" appends="YES" id="KkM-9C-QJd"/>
+                                    <outletCollection property="gestureRecognizers" destination="E6A-0w-lei" appends="YES" id="zfT-f0-zen"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="draggableProfileImageView" destination="wip-l9-j8m" id="Tjm-Bv-yNR"/>
-                        <outlet property="profileImageView" destination="1n5-vV-t3g" id="P32-ov-FYw"/>
+                        <outlet property="profileView" destination="wip-l9-j8m" id="ipd-nl-V4I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="cc4-xR-GNY">
+                <panGestureRecognizer minimumNumberOfTouches="1" id="bNj-dP-afT">
                     <connections>
-                        <action selector="profileImagePanGesture:" destination="BYZ-38-t0r" id="R6B-kj-cDf"/>
+                        <action selector="profileImagePanGesture:" destination="BYZ-38-t0r" id="TAK-kv-IW8"/>
                     </connections>
                 </panGestureRecognizer>
+                <tapGestureRecognizer id="E6A-0w-lei">
+                    <connections>
+                        <action selector="tapGesture:" destination="BYZ-38-t0r" id="PJo-Uj-lDg"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="192" y="378"/>
         </scene>
@@ -55,6 +57,5 @@
     <resources>
         <image name="action_buttons" width="320" height="108"/>
         <image name="nav_bar" width="320" height="65"/>
-        <image name="ryan" width="449" height="514"/>
     </resources>
 </document>
