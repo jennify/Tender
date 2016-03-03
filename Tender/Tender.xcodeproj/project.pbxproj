@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53F21EEE1C87EA5900163802 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F21EED1C87EA5900163802 /* DraggableImageView.xib */; };
+		53F21EF01C87EA7100163802 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F21EEF1C87EA7100163802 /* DraggableImageView.swift */; };
 		7AAAE4441C87E34A00E75FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAE4431C87E34A00E75FFE /* AppDelegate.swift */; };
 		7AAAE4461C87E34A00E75FFE /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAE4451C87E34A00E75FFE /* CardsViewController.swift */; };
 		7AAAE4491C87E34B00E75FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAE4471C87E34B00E75FFE /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53F21EED1C87EA5900163802 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		53F21EEF1C87EA7100163802 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 		7AAAE4401C87E34A00E75FFE /* Tender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAAE4431C87E34A00E75FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AAAE4451C87E34A00E75FFE /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				7AAAE44F1C87E34B00E75FFE /* LaunchScreen.storyboard */,
 				7AAAE4521C87E34B00E75FFE /* Info.plist */,
 				7AAAE44A1C87E34B00E75FFE /* Tender.xcdatamodeld */,
+				53F21EED1C87EA5900163802 /* DraggableImageView.xib */,
+				53F21EEF1C87EA7100163802 /* DraggableImageView.swift */,
 			);
 			path = Tender;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				7AAAE4511C87E34B00E75FFE /* LaunchScreen.storyboard in Resources */,
 				7AAAE44E1C87E34B00E75FFE /* Assets.xcassets in Resources */,
+				53F21EEE1C87EA5900163802 /* DraggableImageView.xib in Resources */,
 				7AAAE4491C87E34B00E75FFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				7AAAE4461C87E34A00E75FFE /* CardsViewController.swift in Sources */,
 				7AAAE44C1C87E34B00E75FFE /* Tender.xcdatamodeld in Sources */,
+				53F21EF01C87EA7100163802 /* DraggableImageView.swift in Sources */,
 				7AAAE4441C87E34A00E75FFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
