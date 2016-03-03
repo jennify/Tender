@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7AAAE4441C87E34A00E75FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAE4431C87E34A00E75FFE /* AppDelegate.swift */; };
-		7AAAE4461C87E34A00E75FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAE4451C87E34A00E75FFE /* ViewController.swift */; };
+		7AAAE4461C87E34A00E75FFE /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAE4451C87E34A00E75FFE /* CardsViewController.swift */; };
 		7AAAE4491C87E34B00E75FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAE4471C87E34B00E75FFE /* Main.storyboard */; };
 		7AAAE44C1C87E34B00E75FFE /* Tender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAE44A1C87E34B00E75FFE /* Tender.xcdatamodeld */; };
 		7AAAE44E1C87E34B00E75FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAE44D1C87E34B00E75FFE /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		7AAAE4401C87E34A00E75FFE /* Tender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAAE4431C87E34A00E75FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AAAE4451C87E34A00E75FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AAAE4451C87E34A00E75FFE /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		7AAAE4481C87E34B00E75FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AAAE44B1C87E34B00E75FFE /* Tender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tender.xcdatamodel; sourceTree = "<group>"; };
 		7AAAE44D1C87E34B00E75FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				7AAAE4431C87E34A00E75FFE /* AppDelegate.swift */,
-				7AAAE4451C87E34A00E75FFE /* ViewController.swift */,
+				7AAAE4451C87E34A00E75FFE /* CardsViewController.swift */,
 				7AAAE4471C87E34B00E75FFE /* Main.storyboard */,
 				7AAAE44D1C87E34B00E75FFE /* Assets.xcassets */,
 				7AAAE44F1C87E34B00E75FFE /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AAAE4461C87E34A00E75FFE /* ViewController.swift in Sources */,
+				7AAAE4461C87E34A00E75FFE /* CardsViewController.swift in Sources */,
 				7AAAE44C1C87E34B00E75FFE /* Tender.xcdatamodeld in Sources */,
 				7AAAE4441C87E34A00E75FFE /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +289,7 @@
 				7AAAE4571C87E34B00E75FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
